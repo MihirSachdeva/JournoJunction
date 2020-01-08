@@ -1,0 +1,89 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
+p::selection
+{
+  background-color: rgba(50,50,50,0.1);
+}
+
+a::selection
+{
+  background-color: rgba(50,50,50,0.1);
+}
+
+h1::selection
+{
+  background-color: rgba(50,50,50,0.1);
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    height: 9vh;
+    width: 100%;
+
+}
+.navbar-nav  li a:hover {
+    color: rgb(50,50,50) !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.bottom-container
+{
+  width: 100% !important;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer-link
+{
+  color: #11999E;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-size: 20px;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover
+{
+  color: #EAF6F6;
+  text-decoration: none;
+}
+
+a:hover
+{
+  transition: 0.3s;
+}
+
+p:hover
+{
+  transition: 0.3s;
+}
+
+p
+{
+  font-size:2rem;
+}
+
+.cntnr
+{
+  position: relative;
+  min-height: 80vh;
+}

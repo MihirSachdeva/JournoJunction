@@ -1,0 +1,18 @@
+<%- include("partials/header") -%>
+
+<h1 style="font-size: 5rem;">Home</h1>
+<br>
+<p> <%= homeStarting %> </p>
+<br>
+<hr>
+
+<% postList.forEach(function (post) { %>
+  <div>
+    <h1><%=  post.title  %></h1>
+    <p><%=  post.content.slice(0,299) + " ..." %> <a href="/posts/<%= post._id %>">Read More</a></p>
+    <br>
+  </div>
+<% }); %>
+
+
+<%- include("partials/footer") -%>
